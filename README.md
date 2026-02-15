@@ -304,7 +304,7 @@ RabbitMQ是可选的，如果不需要消息队列功能，可以跳过相关配
 
 ## License
 
-MIT License
+自己看
 
 ## 联系方式
 
