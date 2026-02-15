@@ -1,0 +1,15 @@
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/service/RiskControlService.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/entity/Blacklist.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/service/impl/AppointmentServiceImpl.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/controller/RiskControlController.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/service/BlacklistService.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/config/RabbitMqConfig.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/controller/AppointmentController.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/mapper/BlacklistMapper.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/service/impl/RiskControlServiceImpl.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/entity/Appointment.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/controller/BlacklistController.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/service/AppointmentService.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/service/impl/BlacklistServiceImpl.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/mapper/AppointmentMapper.java
+/Users/blackfruithouse/Documents/yimiao-manage/yimiao-appointment/src/main/java/com/yimiao/appointment/YimiaoAppointmentApplication.java

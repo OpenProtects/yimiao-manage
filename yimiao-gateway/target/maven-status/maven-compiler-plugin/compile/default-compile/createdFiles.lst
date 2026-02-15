@@ -1,0 +1,4 @@
+com/yimiao/gateway/handler/CustomBlockRequestHandler.class
+com/yimiao/gateway/filter/AuthGlobalFilter.class
+com/yimiao/gateway/config/GatewayConfig.class
+com/yimiao/gateway/YimiaoGatewayApplication.class

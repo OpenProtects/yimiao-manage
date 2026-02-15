@@ -1,0 +1,15 @@
+com/yimiao/appointment/config/RabbitMqConfig.class
+com/yimiao/appointment/mapper/BlacklistMapper.class
+com/yimiao/appointment/service/RiskControlService.class
+com/yimiao/appointment/controller/AppointmentController.class
+com/yimiao/appointment/service/impl/AppointmentServiceImpl.class
+com/yimiao/appointment/entity/Blacklist.class
+com/yimiao/appointment/YimiaoAppointmentApplication.class
+com/yimiao/appointment/controller/RiskControlController.class
+com/yimiao/appointment/service/impl/BlacklistServiceImpl.class
+com/yimiao/appointment/service/impl/RiskControlServiceImpl.class
+com/yimiao/appointment/controller/BlacklistController.class
+com/yimiao/appointment/entity/Appointment.class
+com/yimiao/appointment/service/AppointmentService.class
+com/yimiao/appointment/service/BlacklistService.class
+com/yimiao/appointment/mapper/AppointmentMapper.class

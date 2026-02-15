@@ -1,0 +1,15 @@
+com/yimiao/api/vo/VaccineeVO.class
+com/yimiao/api/dto/AppointmentDTO.class
+com/yimiao/api/vo/LoginVO.class
+com/yimiao/api/dto/PaymentDTO.class
+com/yimiao/api/dto/RealNameCertDTO.class
+com/yimiao/api/dto/LoginDTO.class
+com/yimiao/api/vo/AppointmentVO.class
+com/yimiao/api/dto/VaccineeDTO.class
+com/yimiao/api/dto/SlotDTO.class
+com/yimiao/api/dto/SiteDTO.class
+com/yimiao/api/dto/RegisterDTO.class
+com/yimiao/api/vo/SiteVO.class
+com/yimiao/api/vo/SlotVO.class
+com/yimiao/api/vo/VaccineVO.class
+com/yimiao/api/dto/VaccineDTO.class

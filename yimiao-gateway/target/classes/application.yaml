@@ -1,0 +1,72 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: yimiao-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: public
+        group: DEFAULT_GROUP
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: yimiao-user
+          uri: lb://yimiao-user
+          predicates:
+            - Path=/api/user/**,/api/cert/**,/api/vaccinee/**,/api/sms/**
+          filters:
+            - StripPrefix=1
+            
+        - id: yimiao-vaccine
+          uri: lb://yimiao-vaccine
+          predicates:
+            - Path=/api/vaccine/**,/api/stock/**,/api/slot/**,/api/site/**
+          filters:
+            - StripPrefix=1
+            
+        - id: yimiao-appointment
+          uri: lb://yimiao-appointment
+          predicates:
+            - Path=/api/appointment/**,/api/blacklist/**,/api/risk/**
+          filters:
+            - StripPrefix=1
+            
+        - id: yimiao-payment
+          uri: lb://yimiao-payment
+          predicates:
+            - Path=/api/payment/**,/api/refund/**,/api/notification/**
+          filters:
+            - StripPrefix=1
+            
+        - id: yimiao-admin
+          uri: lb://yimiao-admin
+          predicates:
+            - Path=/api/admin/**,/api/statistics/**
+          filters:
+            - StripPrefix=1
+            
+  redis:
+    host: localhost
+    port: 6379
+    password: 
+    database: 0
+    timeout: 10000ms
+
+logging:
+  level:
+    com.yimiao: debug
+    org.springframework.cloud.gateway: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
